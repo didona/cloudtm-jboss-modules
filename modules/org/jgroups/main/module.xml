@@ -25,7 +25,6 @@
 <module xmlns="urn:jboss:module:1.1" name="org.jgroups">
 
     <resources>
-        <!--<resource-root path="jgroups-3.0.6.Final.jar"/> -->
          <resource-root path="jgroups-3.1.0.Beta1.jar"/>
         <!-- Insert resources here -->
     </resources>
