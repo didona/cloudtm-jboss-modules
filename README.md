@@ -20,6 +20,9 @@ JBoss Modules for the Cloud-TM Platform to be installed in Torquebox.
 and tom.TOA protocols to the TCP and UDP stacks. The protocols must be between GMS and UFC, i.e.
 
   > &lt; protocol type='pbcast.GMS'&#47;&gt;
+
   > &lt; protocol type='SEQUENCER'&#47;&gt;
+
   > &lt; protocol type='tom.TOA'&#47;&gt;
+
   > &lt; protocol type='UFC'&#47;&gt;
