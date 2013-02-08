@@ -15,3 +15,11 @@ JBoss Modules for the Cloud-TM Platform to be installed in Torquebox.
 
 4. Add the Hibernate OGM module
    > Copy the folder *modules/org/hibernate* in the same folder of the JBoss directory in your Torquebox installation.
+
+5. In your Torquebox directory edit the configuration file jboss/standalone/configuration/standalone-ha.xml and add the SEQUENCER
+and tom.TOA protocols to the TCP and UDP stacks. The protocols must be between GMS and UFC, i.e.
+
+  <protocol type='pbcast.GMS'/>
+  <protocol type='SEQUENCER'/>
+  <protocol type='tom.TOA'/>
+  <protocol type='UFC'/>
