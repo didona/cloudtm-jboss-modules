@@ -5,7 +5,7 @@ JBoss Modules for the Cloud-TM Platform to be installed in Torquebox.
 
 
 1. Update the infinispan module
-   > Copy the folder *modules/org/infinispan/main* in the same folder of the JBoss directory in your Torquebox installation.
+   > Copy the folder *modules/org/infinispan* in the same folder of the JBoss directory in your Torquebox installation.
 
 2. Update the JGroups module
    > Copy the folder *modules/org/jgroups/main* in the same folder of the JBoss directory in your Torquebox installation.
