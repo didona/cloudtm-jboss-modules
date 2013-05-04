@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <!--
   ~ JBoss, Home of Professional Open Source.
   ~ Copyright 2010, Red Hat, Inc., and individual contributors
@@ -21,15 +20,17 @@
   ~ Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
   ~ 02110-1301 USA, or see the FSF site: http://www.fsf.org.
   -->
-
-<module xmlns="urn:jboss:module:1.1" name="org.jgroups">
-
+<module xmlns="urn:jboss:module:1.1" name="org.infinispan.cachestore.jdbc">
     <resources>
-         <resource-root path="jgroups-3.3.0.CR2.jar"/>
+        <resource-root path="infinispan-cachestore-jdbc-5.2.6-cloudtm-SNAPSHOT.jar"/>
         <!-- Insert resources here -->
     </resources>
 
     <dependencies>
         <module name="javax.api"/>
+        <module name="javax.transaction.api"/>
+        <module name="org.apache.commons.pool"/>
+        <module name="org.infinispan"/>
+        <module name="org.jboss.logging"/>
     </dependencies>
 </module>
